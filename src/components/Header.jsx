@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import LobeLogo from "../assets/images/lobe-logo.svg";
 import { Menu, X } from "lucide-react"; // for icons
 

@@ -16,16 +16,16 @@ function Tour() {
           </p>
         </div>
         <div className="mt-20">
-          <video controls width="600" className="rounded-lg shadow-lg">
-            <source src={TourVideo} type="video/mp4" />
-            Your browser does not support the video tag.
-          
+          <video controls={true} width="900" className="rounded-lg shadow-2xl" poster="/src/assets/images/tour-video-thumbnail.png">
+  <source src={TourVideo} type="video/mp4" />
+  Your browser does not support the video tag.
 </video>
+
         </div>
       </section>
-      <section className="flex flex-col justify-center items-center text-center mt-10">
-        <h1 className="font-bold text-5xl mb-6 w-xs">Train your app with Lobe</h1>
-        <button className="bg-[#04ddb2] rounded-full text-white px-6 py-3 hover:cursor-pointer">Download</button>
+      <section className="flex flex-col justify-center items-center text-center mt-10 mb-20">
+        <h1 className="font-bold text-5xl mb-8 w-xs">Train your app with Lobe</h1>
+        <button className="bg-[#04ddb2] rounded-full text-white px-7 py-2 hover:cursor-pointer">Download</button>
       </section>
     </>
   );
