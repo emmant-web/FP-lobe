@@ -15,8 +15,8 @@ function Tour() {
             experience needed.
           </p>
         </div>
-        <div className="mt-20">
-          <video controls={true} width="900" className="rounded-lg shadow-2xl" poster="/src/assets/images/tour-video-thumbnail.png">
+        <div className="mt-20 w-[320px] lg:w-4xl md:w-2xl">
+          <video controls={true} className="rounded-lg shadow-2xl" poster="/src/assets/images/tour-video-thumbnail.png">
   <source src={TourVideo} type="video/mp4" />
   Your browser does not support the video tag.
 </video>
