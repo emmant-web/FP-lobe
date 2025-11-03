@@ -1,16 +1,11 @@
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import Tour from "./components/Tour"
-
+import TourPage from "./pages/TourPage"
 
 
 function App() {
 
   return (
     <div className="min-h-screen">
-      <Header/>
-      <Tour/>
-      <Footer/>
+      <TourPage/>
     </div>
   )
 }

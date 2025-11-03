@@ -22,11 +22,21 @@ function Header() {
 
         {/* Nav Links */}
         <ul className="hidden md:flex gap-8 items-center text-[#250d21] font-medium">
-          <a href="#"><li>Overview</li></a>
-          <a href="#"><li>Examples</li></a>
-          <a href="#"><li>Tour</li></a>
-          <a href="#"><li>Blog</li></a>
-          <a href="#"><li>Help</li></a>
+          <a href="#">
+            <li>Overview</li>
+          </a>
+          <a href="#">
+            <li>Examples</li>
+          </a>
+          <a href="#">
+            <li>Tour</li>
+          </a>
+          <a href="#">
+            <li>Blog</li>
+          </a>
+          <a href="#">
+            <li>Help</li>
+          </a>
         </ul>
 
         {/* Desktop Button */}
@@ -39,11 +49,21 @@ function Header() {
       {isOpen && (
         <div className="md:hidden bg-white shadow-inner">
           <ul className="flex flex-col items-center gap-6 py-6 text-[#250d21] font-medium">
-            <a href="#"><li>Overview</li></a>
-            <a href="#"><li>Examples</li></a>
-            <a href="#"><li>Tour</li></a>
-            <a href="#"><li>Blog</li></a>
-            <a href="#"><li>Help</li></a>
+            <a href="#">
+              <li>Overview</li>
+            </a>
+            <a href="#">
+              <li>Examples</li>
+            </a>
+            <a href="#">
+              <li>Tour</li>
+            </a>
+            <a href="#">
+              <li>Blog</li>
+            </a>
+            <a href="#">
+              <li>Help</li>
+            </a>
             <button className="bg-[#04ddb2] rounded-full text-white px-6 py-3 hover:bg-[#03c09d] transition">
               Download
             </button>
