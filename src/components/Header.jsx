@@ -7,7 +7,7 @@ function Header() {
 
   return (
     <nav className="w-full bg-white fixed top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-20 py-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-10 py-4">
         {/* Logo */}
         <a href="#">
           <img src={LobeLogo} className="w-24 h-auto" alt="lobe-logo" />
