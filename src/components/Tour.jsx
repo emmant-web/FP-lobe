@@ -14,7 +14,7 @@ function Tour() {
             experience needed.
           </p>
         </div>
-        <div className="mt-20 w-[320px] lg:w-4xl md:w-2xl">
+        <div className="mt-20 w-[320px] lg:w-3xl md:w-2xl">
           <video
             controls={true}
             className="rounded-lg shadow-2xl"
