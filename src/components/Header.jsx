@@ -21,7 +21,7 @@ function Header() {
         </div>
 
         {/* Nav Links */}
-        <ul className="hidden md:flex gap-8 items-center text-[#250d21] font-medium">
+        <ul className="hidden md:flex gap-8 items-center text-[#333] font-medium">
           <a href="#">
             <li>Overview</li>
           </a>
@@ -48,7 +48,7 @@ function Header() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white shadow-inner">
-          <ul className="flex flex-col items-center gap-6 py-6 text-[#250d21] font-medium">
+          <ul className="flex flex-col items-center gap-6 py-6 text-[#333] font-medium">
             <a href="#">
               <li>Overview</li>
             </a>
