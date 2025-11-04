@@ -17,7 +17,7 @@ function Tour() {
           <video
             controls={true}
             className="rounded-lg shadow-2xl"
-            poster="/src/assets/images/tour-video-thumbnail.png"
+            poster="/tour-video-thumbnail.png"
           >
             <source src={TourVideo} type="video/mp4" />
             Your browser does not support the video tag.
