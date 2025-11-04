@@ -6,10 +6,10 @@ function Tour() {
     <>
       <section className="flex flex-col justify-center items-center text-center mt-[80px]">
         <div className="mt-20">
-          <h1 className="font-bold text-5xl mb-6">
+          <h1 className="font-bold text-5xl mb-6 text-[#333]">
             Lobe <span className="text-[#04ddb2]"> Tour</span>
           </h1>
-          <p className="w-sm text-lg">
+          <p className="w-2xs md:w-sm text-lg text-[#333]">
             Build your first machine learning model in ten minutes. No code or
             experience needed.
           </p>
@@ -26,7 +26,7 @@ function Tour() {
         </div>
       </section>
       <section className="flex flex-col justify-center items-center text-center mt-10 mb-20">
-        <h1 className="font-bold text-5xl mb-8 w-xs">
+        <h1 className="font-bold text-5xl mb-8 w-xs text-[#333]">
           Train your app with Lobe
         </h1>
         <button className="bg-[#04ddb2] rounded-full text-white px-7 py-2 hover:cursor-pointer">
