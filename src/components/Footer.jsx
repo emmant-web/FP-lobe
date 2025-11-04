@@ -4,8 +4,8 @@ import { MessageCircle, Youtube, Twitter } from "lucide-react";
 function Footer() {
   return (
     <>
-      <div className="border-t-2 border-gray-300 w-[65rem] mx-auto"></div>
-      <footer className="flex flex-col justify-start mx-[2rem] items-start gap-6 md:mx-[0rem] md:flex md:flex-row md:items-start md:justify-center md:gap-8 md:px-10 md:py-10 lg:px-40">
+      <div className="border-t-2 border-gray-300 w-xs md:w-2xl lg:w-[65rem] mx-auto"></div>
+      <footer className="flex flex-col justify-start mx-[2rem] items-start gap-6 md:mx-[0rem] md:flex md:flex-row md:items-start md:justify-center md:gap-1 md:px-10 md:py-10 lg:px-40">
         <div className="flex flex-col gap-4 mt-6 w-2xs md:justify-center">
           <img src={LobeLogo} alt="lobe-logo" className="w-20 h-auto" />
           <p>A product by Microsoft.</p>
@@ -14,7 +14,7 @@ function Footer() {
         </div>
 
         <div className="flex flex-col gap-4 md:w-md md:flex md:flex-row lg:w-lg">
-          <div className="flex flex-col gap-4 mt-6 w-2xs md:w-40">
+          <div className="flex flex-col gap-4 mt-6 w-3xs md:w-32">
             <p className="font-bold">About</p>
             <a href="#">
               <p>Download</p>
@@ -29,7 +29,7 @@ function Footer() {
               <p>Blog</p>
             </a>
           </div>
-          <div className="flex flex-col gap-4 mt-6 w-2xs md:w-40">
+          <div className="flex flex-col gap-4 mt-6 w-3xs md:w-32">
             <p className="font-bold">General</p>
             <a href="#">
               <p>Notice</p>
@@ -44,7 +44,7 @@ function Footer() {
               <p>Press Images</p>
             </a>
           </div>
-          <div className="flex flex-col gap-4 mt-6 w-2xs md:w-40">
+          <div className="flex flex-col gap-4 mt-6 w-3xs md:w-32">
             <p className="font-bold">Resources</p>
             <a href="#">
               <p>Help</p>
@@ -61,7 +61,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex gap-4 mt-6 w-2xs md:w-40">
+        <div className="flex gap-4 mt-6 mb-6 w-3xs md:w-32">
           <a href="#" className="rounded-full bg-[#04ddb2] p-2 text-white ">
             <MessageCircle />
           </a>
