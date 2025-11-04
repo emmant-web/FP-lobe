@@ -1,4 +1,5 @@
 import TourVideo from "../assets/videos/lobe-video.mp4";
+import LobeThumbnail from "../assets/images/tour-video-thumbnail.png"
 
 function Tour() {
   return (
@@ -17,7 +18,7 @@ function Tour() {
           <video
             controls={true}
             className="rounded-lg shadow-2xl"
-            poster="/tour-video-thumbnail.png"
+            poster={LobeThumbnail}
           >
             <source src={TourVideo} type="video/mp4" />
             Your browser does not support the video tag.
