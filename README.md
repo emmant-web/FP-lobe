@@ -14,7 +14,7 @@ It was built purely for **practice and educational purposes**, focusing on respo
 
 ## 🚀 Live Link
 
-🔗 **[View the project here](https://emmant-web.github.io/FP-lobe/)**
+🔗 **[View the project here](https://fp-lobe.netlify.app/)**
 
 ---
 
