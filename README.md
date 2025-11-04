@@ -39,6 +39,8 @@ src/
 │   ├── Header.jsx      # Navbar component
 │   ├── Hero.jsx        # Main hero section
 │   └── Footer.jsx      # Footer component
+├── pages/
+│   └── TourPage.jsx     
 ├── App.jsx
 └── main.jsx
 ```
